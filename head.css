@@ -1,0 +1,192 @@
+body
+{
+    margin: 0;
+}
+
+#container
+{
+    background-color: #ec7b7b;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1.5fr 1.5fr 5fr 1fr;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    
+    box-sizing: border-box;
+    position: absolute;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149); 
+}
+#shopName 
+{
+    font-size: 40px; 
+    font-family: 'Lato', sans-serif;
+}
+#shopName a
+{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+#shopName > b
+{
+    font-weight: 900;
+    font: black;
+}
+
+#collection
+{
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#collection a
+{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    padding: 20px;
+}
+#collection a:hover{
+    color: white;
+}
+
+.search
+{
+    padding: 16px;
+    /* color: gray; */
+    color: rgb(29, 29, 29);
+    min-width: 25px;
+    text-align: center;
+    position: absolute;
+}
+
+
+#input 
+{
+    width: 35em;
+    height: 3em;
+    padding: 2px 50px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 5px;
+}
+#input::placeholder
+{
+    font-weight: bold;
+}
+#input:focus
+{
+    outline: none;
+}
+
+#user
+{
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#user a
+{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+#user a:hover{
+    color: white;
+}
+
+
+
+/* ----------------------------- MEDIA QUERY --------------------------- */
+
+@media(max-width: 1300px)
+{
+    #collection
+    {
+        font-size: 13px;
+    }
+    #user{
+        font-size: 10px;
+}
+    #input 
+    {
+        width: 25em;
+    }
+}
+@media(max-width: 1212px)
+{
+    #collection
+    {
+        font-size: 13px;
+    }
+    #user{
+        font-size: 10px;
+}
+    #input 
+    {
+        width: 20em;
+    }
+    
+}
+
+@media(max-width: 1090px)
+{
+    #container
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr 0.5fr;
+    }
+    #user{
+        font-size: 10px;
+}
+    #search
+    {
+        display: none;
+    }
+}
+@media(max-width: 750px)
+{
+    #shopName
+    {
+        font-size: 28px;
+    }
+    #collection
+    {
+        font-size: 12px;
+    }
+    
+    #user{
+        font-size: 10px;
+}
+    
+}
+
+@media(max-width: 650px)
+{
+    #shopName
+    {
+        font-size: 24px;
+    }
+    #collection
+    {
+        font-size: 10px;
+    }
+    #user{
+            font-size: 10px;
+    }
+    
+}
+@media(max-width: 550px)
+{
+    #container 
+    {
+        padding: 20px 25px;
+    }
+}
+

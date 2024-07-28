@@ -1,0 +1,382 @@
+.button-area {
+    background: #fff
+}
+
+.button-area .border-top-generic {
+    padding: 70px 15px;
+    border-top: 1px dotted #eee
+}
+
+.button-group-area .genric-btn {
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.button-group-area .genric-btn:last-child {
+    margin-right: 0
+}
+
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.genric-btn:focus {
+    outline: none
+}
+
+.genric-btn.e-large {
+    padding: 0 40px;
+    line-height: 50px
+}
+
+.genric-btn.large {
+    line-height: 45px
+}
+
+.genric-btn.medium {
+    line-height: 30px
+}
+
+.genric-btn.small {
+    line-height: 25px
+}
+
+.genric-btn.radius {
+    border-radius: 3px
+}
+
+.genric-btn.circle {
+    border-radius: 20px
+}
+
+.genric-btn.arrow {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.genric-btn.arrow span {
+    margin-left: 10px
+}
+
+.genric-btn.default {
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.default:hover {
+    border: 1px solid #f9f9ff;
+    background: #fff
+}
+
+.genric-btn.default-border {
+    border: 1px solid #f9f9ff;
+    background: #fff
+}
+
+.genric-btn.default-border:hover {
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.primary {
+    color: #fff;
+    background: #f42f2c;
+    border: 1px solid transparent
+}
+
+.genric-btn.primary:hover {
+    color: #f42f2c;
+    border: 1px solid #f42f2c;
+    background: #fff
+}
+
+.genric-btn.primary-border {
+    color: #c14946;
+    border: 1px solid #f42f2c;
+    background: #fff
+}
+
+.genric-btn.primary-border:hover {
+    color: #fff;
+    background: #f42f2c;
+    border: 1px solid transparent
+}
+
+.genric-btn.success {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent
+}
+
+.genric-btn.success:hover {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff
+}
+
+.genric-btn.success-border {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff
+}
+
+.genric-btn.success-border:hover {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent
+}
+
+.genric-btn.info {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.info:hover {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff
+}
+
+.genric-btn.info-border {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff
+}
+
+.genric-btn.info-border:hover {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.warning {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent
+}
+
+.genric-btn.warning:hover {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff
+}
+
+.genric-btn.warning-border {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff
+}
+
+.genric-btn.warning-border:hover {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent
+}
+
+.genric-btn.danger {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent
+}
+
+.genric-btn.danger:hover {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff
+}
+
+.genric-btn.danger-border {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff
+}
+
+.genric-btn.danger-border:hover {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent
+}
+
+.genric-btn.link {
+    color: #222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent
+}
+
+.genric-btn.link:hover {
+    color: #222;
+    border: 1px solid #f9f9ff;
+    background: #fff
+}
+
+.genric-btn.link-border {
+    color: #222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline
+}
+
+.genric-btn.link-border:hover {
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.disable {
+    color: #222, 0.3;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+    cursor: not-allowed
+}
+
+.generic-blockquote {
+    padding: 30px 50px 30px 30px;
+    background: #f9f9ff;
+    border-left: 2px solid #f42f2c
+}
+
+.footer-area {
+    background-color: #222;
+    
+    
+}
+
+.footer-area h4 {
+    padding-bottom: 30px
+}
+
+.footer-area .number {
+    color: #f42f2c;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px
+}
+
+.footer-area .genric-btn {
+    background: #f42f2c;
+    border: none;
+    border-radius: 57px;
+    height: 36px
+}
+
+.footer-area .primary-btn {
+    background-color: #f42f2c
+}
+
+.footer-area .primary-btn:hover .lnr {
+    color: #f42f2c
+}
+
+.footer-area .footer-bottom {
+    padding-top: 40px
+}
+
+.footer-area .footer-bottom a {
+    color: #f42f2c
+}
+
+.footer-area .footer-bottom .footer-social {
+    text-align: right
+}
+
+.footer-area .footer-bottom .footer-social a {
+    background: #111111;
+    margin: 2px;
+    padding: 12px 16px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.footer-area .footer-bottom .footer-social a:hover {
+    background-color: #f42f2c
+}
+
+.footer-area .footer-bottom .footer-social i {
+    color: #cccccc;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+@media (max-width: 991.98px) {
+    .footer-area .footer-bottom .footer-social {
+        text-align: left
+    }
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+@media (max-width: 768px) {
+    .footer-area .footer-bottom .footer-social {
+        margin-top: 20px
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-area .single-footer-widget .newsletter .primary-btn {
+        right: 2% !important;
+        width: auto;
+        right: 0;
+        top: 5px;
+        transform: translate(0%, 0)
+    }
+}
+
+.single-footer-widget .navbar-form {
+    width: 100%
+}
+
+.single-footer-widget .navbar-form .form-control {
+    border: none;
+    border-radius: 20px;
+    font-size: 13px
+}
+
+.single-footer-widget .navbar-form .add-on {
+    background: #f42f2c;
+    border-radius: 20px
+}
+
+.single-footer-widget .navbar-form .genric-btn:hover {
+    background-color: #f42f2c
+}
+
+.single-footer-widget .navbar-form .genric-btn:hover .lnr {
+    color: #fff
+}
+
+.single-footer-widget .navbar-form .lnr {
+    font-weight: 900;
+    font-size: 18px !important;
+    color: #f9f9f9
+}

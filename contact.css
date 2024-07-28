@@ -1,0 +1,172 @@
+.contact-area {
+    background: #fff;
+    padding-top: 30px;padding-bottom: 50px;
+
+}
+
+.contact-area h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600px;
+    letter-spacing: 4px;
+}
+
+.contact-area p {
+    margin-top: 15px;
+    color: #fff
+}
+
+.form-area {
+    width: 100%;
+    margin-top:100px;
+    margin-left: 100px;
+}
+
+@media (max-width: 800px) {
+    .form-area {
+        margin-left: 0px;
+    }
+}
+
+.g-map {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-btn {
+    margin-top: 20px;
+}
+
+.contact-form {
+    padding: 40px 30px;
+    
+}
+
+@media (max-width: 767.98px) {
+    .contact-form {
+        margin-top: 30px;
+    }
+}
+
+.contact-form ::-webkit-input-placeholder {
+    color: #777777;
+    font-weight: 300;
+    
+}
+
+.contact-form :-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+    font-weight: 300
+}
+
+.contact-form ::-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+    font-weight: 300
+}
+
+.contact-form :-ms-input-placeholder {
+    color: #777777;
+    font-weight: 300;
+    
+}
+
+.contact-form ::-ms-input-placeholder {
+    color: #777777;
+    font-weight: 300
+}
+
+.common-input {
+    border: 1px solid rgba(111, 117, 152, 0.3);
+    line-height: 48px;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    background: transparent;
+    padding: 0 25px;
+    color: #777
+}
+
+.common-textarea {
+    border: 1px solid rgba(111, 117, 152, 0.3);
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    background: transparent;
+    padding: 15px 25px;
+    color: #777;
+    height: 150px;
+    resize: none
+}
+
+.alert-msg {
+    color: #69d71c;
+    margin-top: 20px;
+    display: none;
+    width: 100%;
+    text-align: center
+}
+.primary-btn {
+    background-color: #f42f2c;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative
+}
+
+.primary-btn:focus {
+    outline: none
+}
+
+.primary-btn span {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.primary-btn:hover {
+    color: #fff
+}
+
+.primary-btn:hover span {
+    color: #fff;
+    right: 20px
+}
+
+.primary-btn.white {
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.primary-btn.white span {
+    color: #fff
+}
+
+.primary-btn.white:hover {
+    background: #fff;
+    color: #f42f2c
+}
+
+.primary-btn.white:hover span {
+    color: #f42f2c
+}

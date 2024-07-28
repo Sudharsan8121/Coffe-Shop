@@ -1,0 +1,238 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .form {
+                width: 500px;
+                border-radius: 20px;
+                height: 135vh;
+            }
+
+            .login-heading {
+                font-size: 40px;
+                font-weight: 700;
+                text-transform: capitalize;
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            .username {
+                text-transform: capitalize;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+            }
+
+            input {
+                width: 100%;
+                border: 1px solid transparent;
+                box-shadow: none
+            }
+
+            .facebook-icon,
+            .twitter-icon,
+            .google-icon {
+                border: 1px solid transparent;
+                padding: 2% 4%;
+                margin-left: 2%;
+                border-radius: 50px;
+                background-color: #3b5998;
+                color: white;
+                font-size: 25px;
+            }
+
+            .twitter-icon {
+                padding: 2% 3%;
+                background-color: #1da1f2;
+            }
+
+            .google-icon {
+                padding: 2% 3.5%;
+                background-color: #ea4335;
+            }
+
+            .facebook-icon:hover,
+            .twitter-icon:hover,
+            .google-icon:hover {
+                background-color: rgb(80, 75, 75);
+                transition: 0.5s linear;
+            }
+
+            .hr-1,
+            .hr-2 {
+                border: 1px solid rgb(194, 187, 187);
+                transition: 0.2s linear;
+            }
+
+            .input-1,
+            .input-2 {
+                font-size: 18px;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #user {
+                font-size: 20px;
+                color: rgb(194, 187, 187)
+            }
+
+            #lock {
+                font-size: 20px;
+                color: rgb(194, 187, 187)
+            }
+
+            .login-button,
+            .signup-button {
+                border-radius: 30px;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding: 3% 3%;
+                background-size: 300% 100%;
+                background-image: linear-gradient(to right, rgb(32, 7, 32), rgba(0, 191, 255, 0.456), rgb(33, 28, 33));
+                font-family: Arial, Helvetica, sans-serif;
+                transition: all 0.5s linear;
+            }
+
+            .login-button:hover,
+            .signup-button:hover {
+                background-position: 100% 0%;
+                transition: all 0.5s linear;
+            }
+
+            a {
+                color: rgb(148, 141, 141)
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            .forget-password {
+                font-size: 15px;
+                font-weight: 600;
+                color: rgb(148, 141, 141)
+            }
+
+            .forget-password:hover,
+            .sign-up:hover {
+                color: blueviolet;
+            }
+
+            .sign-up {
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+
+            .show-me {
+                display: none
+            }
+
+            *:focus {
+                outline: none;
+            }
+
+            @media screen and (max-width:550px) {
+                .form {
+                    width: 450px
+                }
+            }
+
+            @media screen and (max-width:425px) {
+                .form {
+                    width: 380px
+                }
+            }
+
+            @media screen and (max-width:375px) {
+                .form {
+                    width: 330px
+                }
+            }
+
+            @media screen and (max-width:320px) {
+                .form {
+                    margin-left: -5%;
+                    width: 318px
+                }
+            }
+            
+        </style>
+        <script src="./formvalid.js"></script>
+    </head>
+
+    <body style="background-image:url('Images/login-background.jpg');background-size: cover;">
+        <div class="container">
+            <div class="container form bg-white pt-5 mt-4 mb-3">
+                <!--change after click on sign up-->
+                <p class="text-center login-heading hide-me">Login/Signup</p>
+                <div class="container hide-me">
+                    <div class="row">
+                        <div class="col mt-4 pl-5 pr-5">
+                            
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-2 pl-6">
+                                    <i class="fa fa-phone" aria-hidden="true" id="mobile"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="text" placeholder="Mobile Number" class='input-1'>
+                                </div>
+                                
+                            </div>
+                            <hr class="hr-1">
+                            <div class="hide"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col pl-5 pr-5">
+                            <a href="./in.html"><span
+                                    class="btn btn-block text-white login-button">login</span></a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <span
+                                style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">
+                                sign up  using</span>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook facebook-icon" style="padding: 11px 16px;" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter twitter-icon" style="padding: 11px 12px;" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=398874333579-u9rrotjv4vu07ut6l3844d6mspcadqds.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fauth.w3spaces.com%2Foauth2%2Fidpresponse&scope=profile%20email%20openid&response_type=code&state=H4sIAAAAAAAAAE1Qy5KiMBT9l6zFJggE3CmN2KKjJYhMT01ZPJIA8iYY2q7594mLqZrVvafO45663yACSzAOEo4GJsHb6JieE6JrCmYgFozTNLTEAiQCpJD2XVXKuMrQo2H3WKas72tZ0KmgM8baYfn21vYNyUs854shyZqmHOZJUwkNFpqkSV9p5P9oCpa_QNPiOn9djfhLT-ucNfMhF7OejwPu51Fa5TX4PQOZ8J6mj7ND-IZVn9t1a-8u54ul7zYhi0LblytN5ORChlp6PVXWFKTEU4pce66p4raDnpkHlcre0ff8T-y-H-PiIhyFcHiKpov1LtZD52ptDFdRcLU7vKs3wfXC4a7tJdgdf9xOCbTUbrFHLl2dP25-xN8JNLQjMxpahDax3daaUIb8x0XjXzXv9PXUoWAh3Z_cya5oLFfumce9P4X0Oe61PX-Qr59qtbWyPqCOth2m5BiETx7Fe_umWid00B5ozxTlEBpufDD19cLeuHFfFCvRuBSNo5Flr6-3UYL_Pb0CS4gUqKkQGvoMtGBJonLAM9ALg2GkqoGIKZkpJJIqw1QyCUESNlI9WcgmUgwM_vwFnQu3DCQCAAA.H4sIAAAAAAAAADvF989ZKqFHu0Fm3mFuru6NXpeNJ3DPeNbJ8q1HbGNNnQEABCMH3SAAAAA.4&access_type=offline&service=lso&o2v=2&ddm=0&flowName=GeneralOAuthFlow" target="_blank">
+                                <i class="fa fa-google google-icon" style="padding: 11px 13px;" aria-hidden="true"></i>
+                            </a>
+                            
+                            
+                        </div>
+                        
+                    </div>                    
+                    </div>
+                    
+                        
+                    </div>
+                </div>
+                
+                </div>
+                    <div class="col-12 text-center pt-3">
+                        <a href="#"><span class="login-page">login</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
